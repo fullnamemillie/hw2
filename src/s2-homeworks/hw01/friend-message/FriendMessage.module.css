@@ -3,16 +3,6 @@
   flex-direction: column;
   margin-bottom: 41px;
   align-items: flex-start;
-  padding: 0 70px;
-
-
-  @media (max-width: 1023px){
-    padding: 0 35px;
-  }
-
-  @media (max-width: 768px){
-    padding: 0 17px;
-  }
 }
 
 .friendImageAndText {
