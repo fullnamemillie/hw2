@@ -15,10 +15,22 @@
   padding: 40px 70px 0;
 }
 
-/* @media (max-width: 1023px) {
-    padding: 0 35px;
+@media (max-width: 1023px) {
+  .hw {
+    padding: 24px 35px;
   }
 
-  @media (max-width: 768px) {
-    padding: 0 17px;
-  } */
+  .hwTitle {
+    padding: 20px 35px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hw {
+    padding: 24px 17px;
+  }
+
+  .hwTitle {
+    padding: 10px 17px 0;
+  }
+}
