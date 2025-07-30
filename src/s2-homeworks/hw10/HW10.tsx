@@ -6,20 +6,12 @@ import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s2 from '../../s1-main/App.module.css'
 import {Loader} from './Loader'
 
-/*
-* 1 - в файле loadingReducer.ts дописать типы и логику
-* 2 - получить isLoading из редакса
-* 3 - дописать функцию setLoading
-* 4 - сделать стили в соответствии с дизайном
-* */
 
 const HW10 = () => {
-    // useSelector, useDispatch // пишет студент
     const isLoading = useSelector((state: AppStoreType) => state.loading.isLoading);
 
     const dispatch = useDispatch();
 
-    // const isLoading = false
 
     const setLoading = () => {
         dispatch(loadingAC(true));
