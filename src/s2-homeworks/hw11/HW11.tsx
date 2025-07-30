@@ -36,9 +36,6 @@ function HW11() {
                             id={'hw11-single-slider'}
                             value={value1}
                             onChange={change}
-                            min={0}
-                            max={100}
-                            step={1}
 
                         />
                     </div>
@@ -48,9 +45,6 @@ function HW11() {
                             id={'hw11-double-slider'}
                             value={[value1, value2]}
                             onChange={change}
-                            min={0}
-                            max={100}
-                            step={1}
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2}</span>
                     </div>
