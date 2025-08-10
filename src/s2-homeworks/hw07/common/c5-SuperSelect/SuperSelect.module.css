@@ -1,7 +1,10 @@
 .select {
+    font-size: 14px;
+    padding: 8px 127px 11px 10px;
 }
 
 .select:focus {
+    outline: none;
 }
 
 
