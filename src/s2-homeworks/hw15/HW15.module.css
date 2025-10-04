@@ -1,27 +1,32 @@
 .tech {
-    width: 50vw;
+  width: 50vw;
 }
 
 .developer {
-
 }
 
 .techHeader {
-    width: 50vw;
+  width: 50vw;
 }
 
 .developerHeader {
-
 }
 
 .row {
-    display: flex;
+  display: flex;
+  border-top: 1px lightgray solid;
+  height: 36px;
+  align-items: center;
+  font-size: larger;
 }
 
 .rowHeader {
-    display: flex;
+  display: flex;
+  background-color: lightgray;
+  height: 36px;
+  align-items: center;
+  font-weight: bold;
 }
 
 .loading {
-
 }

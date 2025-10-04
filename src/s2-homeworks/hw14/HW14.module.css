@@ -1,7 +1,8 @@
 .tech {
-
 }
 
 .loading {
-
+  margin: 20px 0 0 300px;
+  font-size: small;
+  color: lightslategray;
 }

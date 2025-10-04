@@ -1,7 +1,15 @@
 .buttonsContainer {
+  display: flex;
+  gap: 24px;
 }
 
 .responseContainer {
+  /* margin: 80px auto 0; */
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 
 .imageContainer {
@@ -10,13 +18,30 @@
 .image {
 }
 
-.textContainer{
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .code {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .text {
+  white-space: pre-line; /* переносит по \n и по обычным пробелам */
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 .info {
+  font-size: large;
+  font-weight: 900;
+  color: brown;
 }
